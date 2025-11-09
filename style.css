@@ -1,0 +1,116 @@
+/* Body background using your image */
+body {
+  background-image: url('download.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+  margin: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Container with borders and margins */
+.container {
+  background-color: rgba(95, 39, 39, 0.7);
+  border: 4px solid #E65A1F;
+  border-radius: 20px;
+  margin: 50px auto;
+  padding: 40px;
+  width: 70%;
+}
+
+/* Logo styling */
+.logo img {
+  width: 200px;
+  border: 2px solid #D87B2E;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Heading with text transformation and shadow */
+h1 {
+  text-transform: uppercase;
+  text-shadow: 3px 3px 6px #000;
+  color: #FFAE42;
+}
+
+/* Description text */
+p {
+  font-size: 18px;
+  text-shadow: 1px 1px 2px #000;
+  line-height: 1.6;
+}
+
+/* Button styling */
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  background-color: #E65A1F;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 6px #000;
+}
+
+.button:hover {
+  background-color: #FFAE42;
+  color: #000;
+}
+
+/* Address styling */
+.address {
+  margin-top: 25px;
+  font-style: italic;
+  font-size: 16px;
+  color: #FFD37F;
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* Social media buttons */
+.social-links {
+  margin-top: 20px;
+}
+
+.social-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 6px #000;
+  transition: 0.3s;
+}
+
+/* Facebook button style */
+.fb {
+  background-color: #1877F2;
+}
+
+/* TikTok button style */
+.tiktok {
+  background-color: #000000;
+}
+
+/* Hover effects */
+.social-button:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+/* Map image styling */
+.map img {
+  width: 100%;
+  max-width: 500px;
+  border: 3px solid #E65A1F;
+  border-radius: 15px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
